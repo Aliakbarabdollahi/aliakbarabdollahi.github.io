@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react'
 
 
 
-
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // یا اگر subdirectory است: '/repo-name/'
+  base: '/aliakbarabdollahi.github.io/',  // اگر subdirectory است
+  // یا
+  // base: '/',  // اگر root است
 })
