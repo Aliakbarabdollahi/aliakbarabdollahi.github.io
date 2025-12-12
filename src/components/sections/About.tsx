@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="w-full bg-[#05060a] py-16 lg:py-24"
+      className="w-full bg-[#05060a] py-4 "
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-10 space-y-6">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">

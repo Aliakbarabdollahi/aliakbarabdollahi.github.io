@@ -40,12 +40,12 @@ const Navbar: React.FC = () => {
           >
             Experience
           </a>
-          <a
+          {/* <a
             href="#expertise"
             className="text-slate-100 hover:text-[#ffb320] transition-colors"
           >
             Expertise
-          </a>
+          </a> */}
           <a
             href="#stack"
             className="text-slate-100 hover:text-[#ffb320] transition-colors"

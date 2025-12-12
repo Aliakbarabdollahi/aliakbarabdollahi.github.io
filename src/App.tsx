@@ -3,7 +3,7 @@ import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
 import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
-import Expertise from "./components/sections/Expertise";
+// import Expertise from "./components/sections/Expertise";
 import Stack from "./components/sections/Stack";
 import Testimonials from "./components/sections/Testimonials";
 import ContactCta from "./components/sections/ContactCta";
@@ -18,7 +18,7 @@ const App: React.FC = () => {
       <Projects />
       <About />
       <Experience />
-      <Expertise />
+      {/* <Expertise /> */}
       <Stack />
       <Testimonials />
       <ContactCta />

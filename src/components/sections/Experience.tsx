@@ -5,7 +5,7 @@ const Experience: React.FC = () => {
   return (
     <section
       id="experience"
-      className="w-full bg-[#05060a] py-16 lg:py-24"
+      className="w-full bg-[#05060a] py-4 lg:py-4"
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-10">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-6">

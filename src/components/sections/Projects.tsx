@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
   }, []);
 
   return (
-    <section id="projects" className="w-full bg-[#05060a] py-16 lg:py-24">
+    <section id="projects" className="w-full bg-[#05060a] py-4 lg:py-4">
       <div className="max-w-6xl mx-auto px-4 lg:px-10">
         {/* هدر بدون دکمه جانبی */}
         <div className="flex items-center justify-between mb-10">
@@ -59,9 +59,7 @@ const Projects: React.FC = () => {
                 <h3 className="text-xs md:text-sm font-semibold text-slate-50">
                   {project.title}
                 </h3>
-                <p className="text-[11px] text-slate-300">
-                  {project.subtitle}
-                </p>
+                <p className="text-[11px] text-slate-300">{project.subtitle}</p>
 
                 {/* دکمه کوچک داخل کارت */}
                 <a
@@ -75,6 +73,22 @@ const Projects: React.FC = () => {
               </div>
             </article>
           ))}
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+            {/* کارت‌های پروژه که از visibleProjects.map رندر می‌کنی */}
+          </div>
+
+          {/* دکمه وسط‌چین زیر پروژه‌ها */}
+          <div className="mt-8 flex justify-center">
+            <a
+              href="https://www.linkedin.com/in/aliakbar-abdollahi-508b92174"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center rounded-full bg-white/5 px-6 py-2.5 text-xs md:text-sm font-medium text-slate-100 border border-white/10 hover:bg-white/10 hover:border-[#ffb320] transition-colors"
+            >
+              View more projects on LinkedIn
+            </a>
+          </div>
         </div>
       </div>
     </section>
